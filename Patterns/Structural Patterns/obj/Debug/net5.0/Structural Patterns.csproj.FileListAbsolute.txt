@@ -1,0 +1,11 @@
+X:\VS_Projects\Patterns\Patterns\Structural Patterns\bin\Debug\net5.0\Structural Patterns.deps.json
+X:\VS_Projects\Patterns\Patterns\Structural Patterns\bin\Debug\net5.0\Structural Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Structural Patterns\bin\Debug\net5.0\ref\Structural Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Structural Patterns\bin\Debug\net5.0\Structural Patterns.pdb
+X:\VS_Projects\Patterns\Patterns\Structural Patterns\obj\Debug\net5.0\Structural Patterns.GeneratedMSBuildEditorConfig.editorconfig
+X:\VS_Projects\Patterns\Patterns\Structural Patterns\obj\Debug\net5.0\Structural Patterns.AssemblyInfoInputs.cache
+X:\VS_Projects\Patterns\Patterns\Structural Patterns\obj\Debug\net5.0\Structural Patterns.AssemblyInfo.cs
+X:\VS_Projects\Patterns\Patterns\Structural Patterns\obj\Debug\net5.0\Structural Patterns.csproj.CoreCompileInputs.cache
+X:\VS_Projects\Patterns\Patterns\Structural Patterns\obj\Debug\net5.0\Structural Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Structural Patterns\obj\Debug\net5.0\ref\Structural Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Structural Patterns\obj\Debug\net5.0\Structural Patterns.pdb

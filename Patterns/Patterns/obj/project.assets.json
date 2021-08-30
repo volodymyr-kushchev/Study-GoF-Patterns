@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Creational Patterns/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Creational Patterns.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Creational Patterns.dll": {}
+        }
+      },
+      "Structural Patterns/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Structural Patterns.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Structural Patterns.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Creational Patterns/1.0.0": {
+      "type": "project",
+      "path": "../Creational Patterns/Creational Patterns.csproj",
+      "msbuildProject": "../Creational Patterns/Creational Patterns.csproj"
+    },
+    "Structural Patterns/1.0.0": {
+      "type": "project",
+      "path": "../Structural Patterns/Structural Patterns.csproj",
+      "msbuildProject": "../Structural Patterns/Structural Patterns.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Creational Patterns >= 1.0.0",
+      "Structural Patterns >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\НазовиСебя\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "X:\\VS_Projects\\Patterns\\Patterns\\Patterns\\Patterns.csproj",
+      "projectName": "Patterns",
+      "projectPath": "X:\\VS_Projects\\Patterns\\Patterns\\Patterns\\Patterns.csproj",
+      "packagesPath": "C:\\Users\\НазовиСебя\\.nuget\\packages\\",
+      "outputPath": "X:\\VS_Projects\\Patterns\\Patterns\\Patterns\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\НазовиСебя\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "X:\\VS_Projects\\Patterns\\Patterns\\Creational Patterns\\Creational Patterns.csproj": {
+              "projectPath": "X:\\VS_Projects\\Patterns\\Patterns\\Creational Patterns\\Creational Patterns.csproj"
+            },
+            "X:\\VS_Projects\\Patterns\\Patterns\\Structural Patterns\\Structural Patterns.csproj": {
+              "projectPath": "X:\\VS_Projects\\Patterns\\Patterns\\Structural Patterns\\Structural Patterns.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
