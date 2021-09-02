@@ -4,7 +4,7 @@ using Creational_Patterns.Builder;
 using Creational_Patterns.Prototype;
 using Creational_Patterns.SingletonVariants;
 using Structural_Patterns.Adapter;
-using Structural_Patterns.ChainOfResponsibility;
+using Behavioral_Patterns.ChainOfResponsibility;
 using Structural_Patterns.Composite;
 using Structural_Patterns.Flyweight;
 

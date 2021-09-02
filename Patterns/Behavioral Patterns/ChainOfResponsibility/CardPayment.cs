@@ -1,20 +1,20 @@
 ﻿using System;
 
-namespace Structural_Patterns.ChainOfResponsibility
+namespace Behavioral_Patterns.ChainOfResponsibility
 {
-    public class TokenPayment: IPayment
+    public class CardPayment : IPayment
     {
         private IPayment nextPayment;
 
         public bool Pay(Payment payment)
         {
-            if (payment.type == "TokenPayment")
+            if (payment.type == "CardPayment")
             {
-                Console.WriteLine($"TokenPayment: Payment is processing... You have payed {payment.money}");
+                Console.WriteLine($"CardPayment: Payment is processing... You have payed {payment.money}");
                 return true;
             }
 
-            Console.WriteLine($"TokenPayment skipped");
+            Console.WriteLine($"CardPayment skipped");
 
             if (nextPayment == null)
             {

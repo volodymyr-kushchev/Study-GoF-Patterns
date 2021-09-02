@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Structural_Patterns.ChainOfResponsibility
+namespace Behavioral_Patterns.ChainOfResponsibility
 {
     public class Payment
     {

@@ -94,6 +94,16 @@
           "ref/netstandard1.5/_._": {}
         }
       },
+      "Behavioral Patterns/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Behavioral Patterns.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Behavioral Patterns.dll": {}
+        }
+      },
       "Creational Patterns/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -426,6 +436,11 @@
         "system.runtime.extensions.nuspec"
       ]
     },
+    "Behavioral Patterns/1.0.0": {
+      "type": "project",
+      "path": "../Behavioral Patterns/Behavioral Patterns.csproj",
+      "msbuildProject": "../Behavioral Patterns/Behavioral Patterns.csproj"
+    },
     "Creational Patterns/1.0.0": {
       "type": "project",
       "path": "../Creational Patterns/Creational Patterns.csproj",
@@ -439,6 +454,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Behavioral Patterns >= 1.0.0",
       "Creational Patterns >= 1.0.0",
       "Structural Patterns >= 1.0.0"
     ]
@@ -475,6 +491,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "X:\\VS_Projects\\Patterns\\Patterns\\Behavioral Patterns\\Behavioral Patterns.csproj": {
+              "projectPath": "X:\\VS_Projects\\Patterns\\Patterns\\Behavioral Patterns\\Behavioral Patterns.csproj"
+            },
             "X:\\VS_Projects\\Patterns\\Patterns\\Creational Patterns\\Creational Patterns.csproj": {
               "projectPath": "X:\\VS_Projects\\Patterns\\Patterns\\Creational Patterns\\Creational Patterns.csproj"
             },
