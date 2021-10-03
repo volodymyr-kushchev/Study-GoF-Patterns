@@ -1,0 +1,12 @@
+X:\VS_Projects\Patterns\Patterns\Behavioral Patterns\bin\Debug\net5.0\Behavioral Patterns.deps.json
+X:\VS_Projects\Patterns\Patterns\Behavioral Patterns\bin\Debug\net5.0\Behavioral Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Behavioral Patterns\bin\Debug\net5.0\ref\Behavioral Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Behavioral Patterns\bin\Debug\net5.0\Behavioral Patterns.pdb
+X:\VS_Projects\Patterns\Patterns\Behavioral Patterns\obj\Debug\net5.0\Behavioral Patterns.csprojAssemblyReference.cache
+X:\VS_Projects\Patterns\Patterns\Behavioral Patterns\obj\Debug\net5.0\Behavioral Patterns.GeneratedMSBuildEditorConfig.editorconfig
+X:\VS_Projects\Patterns\Patterns\Behavioral Patterns\obj\Debug\net5.0\Behavioral Patterns.AssemblyInfoInputs.cache
+X:\VS_Projects\Patterns\Patterns\Behavioral Patterns\obj\Debug\net5.0\Behavioral Patterns.AssemblyInfo.cs
+X:\VS_Projects\Patterns\Patterns\Behavioral Patterns\obj\Debug\net5.0\Behavioral Patterns.csproj.CoreCompileInputs.cache
+X:\VS_Projects\Patterns\Patterns\Behavioral Patterns\obj\Debug\net5.0\Behavioral Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Behavioral Patterns\obj\Debug\net5.0\ref\Behavioral Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Behavioral Patterns\obj\Debug\net5.0\Behavioral Patterns.pdb

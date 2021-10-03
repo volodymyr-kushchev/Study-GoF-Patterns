@@ -7,6 +7,11 @@ using Structural_Patterns.Adapter;
 using Behavioral_Patterns.ChainOfResponsibility;
 using Structural_Patterns.Composite;
 using Structural_Patterns.Flyweight;
+using Behavioral_Patterns.Iterator;
+using System.Linq;
+using Behavioral_Patterns.Mediator;
+using Behavioral_Patterns.Memento;
+using Behavioral_Patterns.Visitor;
 
 namespace Patterns
 {
@@ -24,11 +29,15 @@ namespace Patterns
             Console.WriteLine("Strutural Patterns");
             Adapter();
             Composite();
-            Flyweight();
+            //Flyweight();
 
             // поведенческие паттерны
             Console.WriteLine("Behavioral Patterns");
             ChainOfResonsibility();
+            Iterator();
+            Mediator();
+            Memento();
+            Visitor();
         }
 
         static void Singleton()
@@ -124,6 +133,78 @@ namespace Patterns
             Terminal terminal = new Terminal(cardPayment);
 
             terminal.Pay(transfer1);
+        }
+
+        static void Iterator()
+        {
+            Console.WriteLine("----------------Iterator----------------");
+            var root = new Node<int>(1,
+                new Node<int>(2),
+                new Node<int>(3));
+
+            var tree = new BinaryTree<int>(root);
+
+            Console.WriteLine(string.Join(",", tree.InOrder.Select(x => x.Value)));
+        }
+
+        static void Mediator()
+        {
+            Console.WriteLine("----------------Mediator----------------");
+            var room = new ChatRoom();
+            var john = new Person("John");
+            var jane = new Person("Jane");
+
+            room.Join(john);
+            room.Join(jane);
+
+            john.Say("hi room!");
+            jane.Say("hi John!");
+
+            var simon = new Person("Simon");
+            room.Join(simon);
+            simon.Say("Hi, everyone!");
+
+            jane.PrivateMessage(simon, "glad you could join to the chat");
+
+            room.Leave(jane);
+
+            simon.PrivateMessage(jane, "I managed to do it");
+
+        }
+
+        static void Memento()
+        {
+            Console.WriteLine("----------------Memento----------------");
+
+            var ba = new BankAccount(100);
+            var memento1 = ba.Deposit(50);
+            var memento2 = ba.Deposit(46);
+
+            Console.WriteLine(ba);
+
+            ba.Restore(memento1);
+            Console.WriteLine(ba);
+
+            ba.Restore(memento2);
+            Console.WriteLine(ba);
+        }
+
+        static void Visitor()
+        {
+            Console.WriteLine("----------------Visitor----------------");
+            // классический посетитель (double dispatch)
+
+            var e = new AdditionExpression(
+                new DoubleExpression(1),
+                new AdditionExpression(
+                    new DoubleExpression(2),
+                    new DoubleExpression(3)
+                )
+            );
+
+            var ep = new ExpressionVisitor();
+            ep.Visit(e);
+            Console.WriteLine(ep);
         }
     }
 }

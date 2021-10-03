@@ -1,0 +1,28 @@
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Patterns.exe
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Patterns.deps.json
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Patterns.runtimeconfig.json
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Patterns.runtimeconfig.dev.json
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\ref\Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Patterns.pdb
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\System.Drawing.Common.dll
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Behavioral Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Creational Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Structural Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Behavioral Patterns.pdb
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Creational Patterns.pdb
+X:\VS_Projects\Patterns\Patterns\Patterns\bin\Debug\net5.0\Structural Patterns.pdb
+X:\VS_Projects\Patterns\Patterns\Patterns\obj\Debug\net5.0\Patterns.csprojAssemblyReference.cache
+X:\VS_Projects\Patterns\Patterns\Patterns\obj\Debug\net5.0\Patterns.GeneratedMSBuildEditorConfig.editorconfig
+X:\VS_Projects\Patterns\Patterns\Patterns\obj\Debug\net5.0\Patterns.AssemblyInfoInputs.cache
+X:\VS_Projects\Patterns\Patterns\Patterns\obj\Debug\net5.0\Patterns.AssemblyInfo.cs
+X:\VS_Projects\Patterns\Patterns\Patterns\obj\Debug\net5.0\Patterns.csproj.CoreCompileInputs.cache
+X:\VS_Projects\Patterns\Patterns\Patterns\obj\Debug\net5.0\Patterns.csproj.CopyComplete
+X:\VS_Projects\Patterns\Patterns\Patterns\obj\Debug\net5.0\Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Patterns\obj\Debug\net5.0\ref\Patterns.dll
+X:\VS_Projects\Patterns\Patterns\Patterns\obj\Debug\net5.0\Patterns.pdb
+X:\VS_Projects\Patterns\Patterns\Patterns\obj\Debug\net5.0\Patterns.genruntimeconfig.cache
